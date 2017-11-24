@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Adressen SYSTEM "Adresse.dtd">
+<!-- todo dtd erstellen -->
+
+<adressen>
+
+    <adresse nummer="1">
+        <name>
+            <vorname>Max</vorname>
+            <nachname>Mustermann</nachname>
+        </name>
+        <anschrift>
+            <strasse>Mittelstraße</strasse>
+            <hausnummer>2</hausnummer>
+            <ort plz="32657">Lemgo</ort>
+        </anschrift>
+    </adresse>
+
+    <adresse nummer="2">
+        <name>
+            <vorname>Eva</vorname>
+            <nachname>Musterfrau</nachname>
+        </name>
+        <anschrift>
+            <strasse>Hauptstraße</strasse>
+            <hausnummer>1</hausnummer>
+            <ort plz="32756">Detmold</ort>
+        </anschrift>
+    </adresse>
+
+</adressen>

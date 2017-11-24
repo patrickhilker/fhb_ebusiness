@@ -1,6 +1,8 @@
 <?php
 
-echo 'hallo welt!';
+define('begruessung', 'hallo welt!');
+
+echo begruessung;
 echo '<br><br>'; // nur für die optik
 
 $x = 4;
